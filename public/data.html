@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>利用データ | りーち～ず</title><link rel="stylesheet" href="./guide.css"></head><body><header><nav aria-label="ページ案内"><a href="./">地図に戻る</a><a href="./manual.html">マニュアル</a><a href="./data.html">利用データ</a></nav></header><main><h1>利用データ</h1><p>本アプリは、以下の外部データを使用しています。各データの利用条件は、提供元とライセンスのリンクから確認できます。</p>
+<div class="table-wrap" role="region" aria-label="使用データとライセンス" tabindex="0"><table><thead><tr><th>使用データ</th><th>ライセンス</th><th>公式の確認先</th></tr></thead><tbody>
+<tr><td>鉄道路線・駅：国土数値情報2025年度</td><td><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></td><td><a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html">鉄道データ</a></td></tr>
+<tr><td>バス停留所：国土数値情報2022年度</td><td><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></td><td><a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-2022.html">バス停留所データ</a></td></tr>
+<tr><td>バス経路：国土数値情報2022年度</td><td><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></td><td><a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-2022.html">バスルートデータ</a></td></tr>
+<tr><td>イベント：大阪府・BODIK</td><td><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></td><td><a href="https://data.bodik.jp/ja/dataset/270008_event">大阪府 イベント一覧</a></td></tr>
+<tr><td>背景地図：© OpenStreetMap contributors</td><td>元データは<a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>。標準地図タイルはそのデータから作られた地図画像です。</td><td><a href="https://www.openstreetmap.org/copyright">著作権・出典</a> · <a href="https://osmfoundation.org/wiki/Licence/Licence_and_Legal_FAQ">ライセンス説明</a></td></tr>
+</tbody></table></div>
+<h2>データの加工</h2><ul><li>鉄道路線・駅：国土交通省の国土数値情報を対象地域で抽出し、座標変換や同一駅の統合などを行っています。</li><li>バス停留所・バス経路：国土交通省の国土数値情報を抽出・座標変換し、近接する同名停留所の統合や事業者別の表示に加工しています。</li><li>イベント：大阪府のイベント一覧CSVを抽出・加工しています。更新日より前に終了したイベントなどを除外し、掲載座標で地図に表示します。</li></ul>
+<h2>更新と利用上の注意</h2><p>鉄道・バスのデータは表記された年度の情報であり、現在の運行を保証するものではありません。イベントは取得時点の情報です。開催期間内でも休催日があるため、詳細ページを確認してください。</p><p>背景地図の配信には、OpenStreetMapの<a href="https://operations.osmfoundation.org/policies/tiles/">タイル利用ポリシー</a>も適用されます。各データのライセンスは、アプリのプログラムのライセンスとは別です。</p></main><footer><a href="https://github.com/crayoncrayon2003/reach-map">本アプリに関するお問い合わせ先：GitHub</a></footer></body></html>

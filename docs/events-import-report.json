@@ -1,0 +1,14 @@
+{
+  "source": "https://data.bodik.jp/ja/dataset/270008_event",
+  "feed": "https://data.bodik.jp/dataset/388c34d1-f97a-4865-a547-8e89c53a364a/resource/a6f32430-9e39-49f7-b429-6e4eadcc96de/download/270008_event.csv",
+  "fetched_at": "2026-09-18T14:35:26.570Z",
+  "as_of": "2026-09-18",
+  "listed": 97,
+  "excluded": [
+    {
+      "name": "秋の生駒自然観察会",
+      "reason": "重複"
+    }
+  ],
+  "imported": 96
+}
